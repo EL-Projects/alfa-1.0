@@ -1,0 +1,28 @@
+.school-elements {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.school-title {
+  font-size: 64px;
+  text-align: center;
+}
+
+.school-card {
+  display: flex;
+}
+
+.school-text {
+  font-size: 64px;
+  text-align: left;
+}
+
+.school-text-link {
+  font-size: 36px;
+  color: #686666;
+  &:hover,
+  &:focus {
+    color: chocolate;
+  }
+}

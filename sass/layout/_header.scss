@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: block;
+  display: flex;
+}
+
+.header-nav-link {
+  font-size: 36px;
+  color: black;
+}

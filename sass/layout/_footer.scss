@@ -1,0 +1,44 @@
+.footer {
+  background-color: #6d6d6d;
+  display: flex;
+}
+
+.footer-social-icon {
+  fill: black;
+  &:hover,
+  &:focus {
+    fill: white;
+  }
+}
+.footer-social-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-contacts-link {
+  font-size: 36px;
+  text-align: left;
+  color: black;
+  fill: black;
+  &:hover,
+  &:focus {
+    fill: white;
+    color: white;
+  }
+}
+.footer-contacts {
+  text-align: left;
+}
+
+.footer-contacts-icon {
+  margin-right: 30px;
+}

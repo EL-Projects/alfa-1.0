@@ -1,0 +1,28 @@
+.gallery-elements {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.gallery-title {
+  font-size: 64px;
+  text-align: center;
+}
+
+.gallery-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery-text {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 300px;
+  font-size: 40px;
+  color: #686666;
+  &:hover,
+  &:focus {
+    color: chocolate;
+  }
+}
