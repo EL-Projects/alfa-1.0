@@ -1,9 +1,6 @@
-// .hero-section,
-// .header {
-//   background-image: url(../../images/Main\ back.jpg);
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
+.hero-container {
+  align-items: center;
+}
 .hero-main {
   font-size: 96px;
   margin: 0 auto;
@@ -14,4 +11,11 @@
 .hero-section {
   display: block;
   justify-content: center;
+  height: 400px;
+}
+
+.header-background-picture {
+  background-image: url(../../images/main-back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

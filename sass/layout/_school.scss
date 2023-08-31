@@ -2,6 +2,8 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  margin-bottom: 50px;
+  margin-right: 190px;
 }
 
 .school-title {
@@ -11,11 +13,13 @@
 
 .school-card {
   display: flex;
+  justify-content: space-around;
 }
 
 .school-text {
   font-size: 64px;
   text-align: left;
+  max-width: 630px;
 }
 
 .school-text-link {
@@ -25,4 +29,8 @@
   &:focus {
     color: chocolate;
   }
+}
+
+.school-section {
+  background-color: #d9d9d9;
 }

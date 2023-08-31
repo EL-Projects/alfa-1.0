@@ -9,6 +9,8 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  margin-right: 190px;
+  margin-bottom: 30px;
 }
 
 .about-text {
@@ -19,11 +21,12 @@
 
 .about-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-.about-picture {
-  margin-top: 100px;
-  margin-right: 250px;
+.about-image {
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .read-more-state {

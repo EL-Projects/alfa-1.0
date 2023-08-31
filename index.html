@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+    <div class="header-background-picture">
     <header class="header">
       <!-- Header logo -->
       <div class="header container">
@@ -20,22 +21,16 @@
         <!-- Header nav -->
         <nav class="header-nav">
           <ul class="header-nav-list list">
-            <!-- <li class="header-nav-item">
-              <a class="header-nav-link link" href="">About</a>
-            </li> -->
             <li class="header-nav-item">
               <a class="header-nav-link link" href="./gallery.html">Gallery</a>
             </li>
             <li class="header-nav-item">
-              <a class="header-nav-link link" href="">Contacts</a>
+              <a class="header-nav-link link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
-
-
       </div>
     </header>
-
     <main>
       <!-- Main section -->
       <section class="hero-section section">
@@ -43,6 +38,7 @@
           <h1 class="hero-main">Oksana Lukjanska</h1>
         </div>
       </section>
+    </div>
       <!-- About section -->
       <section class="about-section section">
         <div class="about-container container">
@@ -60,7 +56,6 @@
               class="read-more-state"
               id="read-more-text"
             />
-
             <p class="read-more-wrap">
               I love to paint pictures, especially flowers, they inspire me,
               their gradient and color amaze me, I love to talk about art and
@@ -77,13 +72,11 @@
                 Creativity in Bucha</span
               >
             </p>
-
             <label for="read-more-text" class="read-more-trigger"></label>
           </div>
           </div>
         </div>
       </section>
-
       <!-- Gallery section -->
       <section class="gallery-section section">
         <div class="gallery-container container" >
@@ -113,7 +106,6 @@
                 src="images/temp-img3.jpg"
                 alt="Picture 3"
                 width="425"
-                
               />
             </li>
           </ul>
@@ -123,50 +115,38 @@
         </div>
       </section>
       <!-- School section -->
-      <section class="school section">
+      <section class="school-section section">
         <div class="school-container container">
-          
-
-        
         <div class="school-elements">
-
           <h2 class="school-title">School</h2>
         <div class="box-right"></div>
         </div>
-        
 <div class="school-card">
 <div>
           <p class="school-text">Contact me for more information</p>
-        
-       
-          <a class="school-text-link link" href="">Contacts...</a>
+          <a class="school-text-link link" href="#contacts">Contacts...</a>
         </div>
         <div>
           <img src="./images/school-img.jpg" alt="">
         </div>
-
 </div>
-      
-       
-      </section>
+    </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-container container">
-<div class="footer-contacts">
+<div class="footer-contacts" id="contacts">
           <ul class="footer-contacts-list list">
             <li class="footer-contacts-list-item">
               <a class="footer-contacts-link link" href="tel:+380661991419"
                 ><svg class="footer-contacts-icon"width="42px" height="37px">
-                    <use href="./images/icons.svg#icon-phone"></use></svg>+380-66-199-14-19</a
-              >
+                    <use href="./images/icons.svg#icon-phone"></use></svg>+380-66-199-14-19</a>
             </li>
             <li class="footer-contacts-list-item">
               
                 <a class="footer-contacts-link link"  href="mailto:"
                   ><svg class="footer-contacts-icon" width="35px" height="40px">
-                    <use href="./images/icons.svg#icon-email"></use></svg>oksfiklistova@gmail.com</a
-  >
+                    <use href="./images/icons.svg#icon-email"></use></svg>oksfiklistova@gmail.com</a>
             </li>
             <li class="footer-contacts-list-item">
               <a class="footer-contacts-link link" 
@@ -180,45 +160,35 @@
             </li>
           </ul>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="footer-social">
           <ul class="footer-social-list list">
             <li class="footer-social-item">
-              <a class="footer-social-link link" href=""
+              <a class="footer-social-link link" href="https://www.facebook.com/art.fiklistova"
+              target="_blank"
+                rel="noopner noreferrer"
                 ><svg class="footer-social-icon" width="60px" height="60px">
                   <use href="./images/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
             <li class="footer-social-item">
-              <a class="footer-social-link link" href=""
+              <a class="footer-social-link link" href="https://www.instagram.com/oksanalukjanska/"
+              target="_blank"
+                rel="noopner noreferrer"
                 ><svg class="footer-social-icon" width="62px" height="63px">
                   <use href="./images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
             <li class="footer-social-item">
               <a class="footer-social-link link" href=""
+              target="_blank"
+                rel="noopner noreferrer"
                 ><svg class="footer-social-icon" width="56px" height="56px">
                   <use href="./images/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        
       </div>
-
-    </footer>
+</footer>
   </body>
 </html>

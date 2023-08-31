@@ -1,4 +1,5 @@
 .header {
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,4 +13,13 @@
 .header-nav-link {
   font-size: 36px;
   color: black;
+  &:hover,
+  &:focus {
+    color: chocolate;
+  }
+}
+
+.header-nav-item {
+  margin-right: 20px;
+  // :not(:last-child)
 }
