@@ -311,12 +311,12 @@ body {
 @font-face {
   font-weight: 400; /* Соответствует значению normal */
   font-family: FocusGrotesk;
-  src: url("../../fonts/FocusGrotesk-Regular.ttf");
+  src: url("../fonts/FocusGrotesk-Regular.ttf");
 }
 @font-face {
   font-weight: 700; /* Соответствует значению bold */
   font-family: FocusGrotesk;
-  src: url("../../fonts/FocusGrotesk-Bold.ttf");
+  src: url("../fonts/FocusGrotesk-Bold.ttf");
 }
 .school-elements {
   display: flex;
@@ -373,6 +373,7 @@ body {
 
 .header-background-picture {
   background-image: url(../images/main-back.jpg);
+  background-image: src();
   background-size: cover;
   background-repeat: no-repeat;
 }
