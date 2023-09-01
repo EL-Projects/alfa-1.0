@@ -359,8 +359,9 @@ body {
 }
 
 .hero-main {
+  display: block;
   font-size: 96px;
-  margin: 0 auto;
+  margin: 150px auto;
   text-align: center;
   max-width: 480px;
 }
@@ -368,11 +369,11 @@ body {
 .hero-section {
   display: block;
   justify-content: center;
-  height: 400px;
+  height: 815px;
 }
 
 .header-background-picture {
-  background-image: url(../images/main-back.jpg);
+  background-image: url(../images/photo_2023-09-01_18-14-59.jpg);
   background-image: src();
   background-size: cover;
   background-repeat: no-repeat;
