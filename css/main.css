@@ -374,7 +374,6 @@ body {
 
 .header-background-picture {
   background-image: url(../images/photo_2023-09-01_18-14-59.jpg);
-  background-image: src();
   background-size: cover;
   background-repeat: no-repeat;
 }
